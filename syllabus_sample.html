@@ -1,0 +1,1247 @@
+<html><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>원광대학교</title>
+	<link rel="stylesheet" type="text/css" href="/WEB/SWupis/V005/static/css/lecture.css">
+	<link rel="stylesheet" type="text/css" href="/WEB/SWupis/V005/static/css/green.css">
+	<link rel="stylesheet" type="text/css" href="/WEB/SWupis/V005/static/css/red.css">
+	<link rel="stylesheet" type="text/css" href="/WEB/SWupis/V005/static/css/yellow.css">
+	<link rel="stylesheet" type="text/css" href="/WEB/SWupis/V005/static/css/component.css">
+	<link rel="stylesheet" type="text/css" href="/WEB/SWupis/V005/static/css/toast.css">
+	<script type="text/javascript" src="/WEB/SWupis/V005/static/js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="/WEB/SWupis/V005/static/js/icheck.js"></script>
+	<script type="text/javascript" src="/WEB/SWupis/V005/static/js/jquery.toast.js"></script>
+<style>
+	.menu_side {padding-top:10px;padding-bottom:10px;position:relative;width:100%;font-size:12px;}
+	.menu_side ul{margin:0;padding:0;list-style:none}
+	.menu_side li{position:relative;margin:0 0 -1px 0;vertical-align:top;*zoom:1}
+	.menu_side li a{display:block;position:relative;padding:8px 10px;color:#666;font-weight:bold;text-decoration:none;background:#fafafa;border:1px solid #eee;*zoom:1}
+	.menu_side li a .i{position:absolute;top:50%;left:100%;width:8px;height:8px;margin:-4px 0 0 -16px;color:#ccc;background:url(/WEB/SWupis/V005/static/img/ico_sub.gif) no-repeat left top}
+	.menu_side li ul{padding:5px 0;background:#fff}
+	.menu_side li li{margin:0}
+	.menu_side li li a{padding:5px 20px;border:0;background:#fff;font-weight:normal}
+	.menu_side li li a span{color:#666}
+	.menu_side li.active{z-index:2;border:1px solid #ccc}
+	.menu_side li li.active{border:0}
+	.menu_side li.active a{border:0;color:#000}
+	.menu_side li.active .i{background-position:0 -44px}
+	.menu_side li.active li a{border:0}
+	.menu_side li.active ul{display:block;border-top:1px solid #eee}
+	.menu_side li.active li.active a span{font-weight:bold;color:#13b200;}
+
+	.layer {display:block}
+	.layer table {width:100%;border-collapse:separate; border-top:1px solid #8d8d8e; border-left:1px solid #8d8d8e;line-height:20px}
+	.layer table.tbl_bbs {width:100%; margin-bottom:21px;}
+	.layer th, .personal td {vertical-align:top;}
+	.layer table.no_lines,
+	.layer table.no_lines tr,
+	.layer table.no_lines th,
+	.layer table.no_lines td {padding:0; border:0; margin:0;}
+	.layer thead th {font-weight:normal;}
+	.layer thead th,
+	.layer thead td {font-size:12px; text-align:center; border-bottom:1px solid #8d8d8e;}
+	.layer tbody th,
+	.layer tbody td {border-bottom:1px solid #a8a8a8;}
+	.layer tbody tr.first th,
+	.layer tbody tr.first td {border-top:1px solid #000;}
+	.layer thead th {height:35px;text-align:center;vertical-align:middle;font-weight:bold;border-right:1px solid #a8a8a8;}
+
+	.layer tbody td {height:32px;text-align:center;vertical-align:middle;border-right:1px solid #a8a8a8;font-size:12px;padding:5px 5px 5px 5px}
+	.layer td.b_char_align_left {height:35px;text-align:left;vertical-align:middle;border-right:1px solid #a8a8a8;font-size:12px;padding:0 0 0 5px;}
+	.layer td.b_char_form_left {text-align:left;vertical-align:middle;border-right:1px solid #a8a8a8;font-size:12px;padding:5px 5px 5px 5px}
+	.layer td.half {width:80px;}
+	.layer.layer-close {display:none}
+
+</style>
+</head>
+
+<body>
+<div class="wrapper">
+	<div class="header">
+
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top:5px">
+		<thead>
+		<tr>
+			<th class="h_title">2026학년도 1학기 수업계획서</th>
+		</tr>
+		</thead>
+		</table>
+
+	</div>
+	<div id="contents" align="right" style="margin-bottom:20px">
+		<img src="/WEB/SWupis/V005/static/img/btn_plan_print.gif" onclick="window.print();return false;">
+	</div>
+
+	<div id="contents">
+	<!-- 콘텐츠 시작 --->
+		<div class="personal">
+			<form name="f_plan" id="f_plan" method="post" action="lectRPlanAddAct.jsp" target="_self" autocomplete="off">
+			<input type="hidden" id="codecollege" name="codecollege" value="-1">
+			<input type="hidden" id="year" name="year" value="2026">
+			<input type="hidden" id="term" name="term" value="1">
+			<input type="hidden" id="codelesson" name="codelesson" value="L00002">
+			<input type="hidden" id="class" name="class" value="44">
+			<input type="hidden" id="bboard" name="bboard" value="N">
+			<input type="hidden" id="video" name="video" value="N">
+			<input type="hidden" id="ohp" name="ohp" value="N">
+			<input type="hidden" id="homework" name="homework" value="">
+
+			<table class="tbl_bbs" cellpadding="0" cellspacing="0" border="0" style="table-layout:fixed;width:100%;">
+			<thead>
+				<tr class="first">
+					<th class="h_char h_color_deep" rowspan="4" style="width:180px">교과목</th>
+				</tr>
+				<tr>
+					<th class="h_char h_color_light">과목명</th>
+					<th class="h_char"><span class="h_font_no">대학생활과자기혁신</span></th>
+					<th class="h_char h_color_light">학수번호</th>
+					<th class="h_char"><span class="h_font_no">L00002</span></th>
+					<th class="h_char h_color_light">분반</th>
+					<th class="h_char"><span class="h_font_no">44</span></th>
+				</tr>
+				<tr>
+					<th class="h_char h_color_light">이수구분</th>
+					<th class="h_char"><span class="h_font_no">교필</span></th>
+					<th class="h_char h_color_light">학점</th>
+					<th class="h_char"><span class="h_font_no">2.0</span></th>
+					<th class="h_char h_color_light">시간</th>
+					<th class="h_char"><span class="h_font_no">이론 : 2.00 / 실습 : 0.00</span></th>
+				</tr>
+				<tr>
+					<th class="h_char h_color_light">인증구분</th>
+					<th class="h_char"></th>
+					<th class="h_char h_color_light">교재명</th>
+					<th class="h_char" colspan="3" style="font-weight:normal;text-align:left;padding-left:5px">교수자 자체 제작 및 배포</th>
+				</tr>
+				<tr>
+					<th class="h_char h_color_deep" rowspan="2">주 수강대상</th>
+					<th class="h_char" colspan="2" rowspan="2" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px">학부 1학년</th>
+					<th class="h_char h_color_light">강의요일/시간</th>
+					<th class="h_char" colspan="3" style="font-weight:normal;text-align:left;padding-left:5px">월56</th>
+				</tr>
+				<tr>
+					<th class="h_char h_color_light">강의실</th>
+					<th class="h_char" colspan="3" style="font-weight:normal;text-align:left;padding-left:5px">[교학관 지상 3층] 301강의실</th>
+				</tr>
+				<tr>
+					<th class="h_char h_color_deep" rowspan="6">담당교수</th>
+				</tr>
+				<tr>
+					<th class="h_char h_color_light">성명</th>
+					<th class="h_char" colspan="5" style="font-weight:normal;text-align:left;padding-left:5px">원영상</th>
+				</tr>
+				<tr>
+					<th class="h_char h_color_light">소속</th>
+					<th class="h_char" colspan="5" style="font-weight:normal;text-align:left;padding-left:5px">사범대학 일어교육과</th>
+				</tr>
+				<tr>
+					<th class="h_char h_color_light" rowspan="2">연락처</th>
+					<th class="h_char h_color_light">전화</th>
+					<th class="h_char" style="font-weight:normal;text-align:left;padding-left:5px">063-850-6116</th>
+					<th class="h_char h_color_light">연구실</th>
+					<th class="h_char" colspan="2" style="font-weight:normal;text-align:left;padding-left:5px"></th>
+				</tr>
+				<tr>
+					<th class="h_char h_color_light">휴대폰</th>
+					<th class="h_char" style="font-weight:normal;text-align:left;padding-left:5px">010-4814-6119</th>
+					<th class="h_char h_color_light">Email</th>
+					<th class="h_char" colspan="2" style="font-weight:normal;text-align:left;padding-left:5px;work-wrap:break-word">wonyosa@naver.com</th>
+				</tr>
+				<tr>
+					<th class="h_char h_color_light">면담가능요일/시간</th>
+					<th class="h_char" colspan="5" style="font-weight:normal;text-align:left;padding-left:5px">수업 시간 이 가능</th>
+				</tr>
+			</thead>
+
+			</table>
+
+			<p>
+				</p><h4 class="h_title_h3">교과목 기본정보</h4>
+			<p></p>
+
+			<table class="tbl_bbs" cellpadding="0" cellspacing="0" border="0" style="table-layout:fixed;width:100%;">
+			<thead>
+				<tr class="first">
+					<th class="h_char h_color_deep" style="width:180px">선수과목 또는 선수학습</th>
+					<th class="h_char" colspan="4" style="font-weight:normal;height:50px;text-align:left;padding:5px 5px 5px 5px">없음</th>
+					<th class="h_char h_color_deep">이수체계도의<br>선수과목</th>
+					<th class="h_char" colspan="7"></th>
+				</tr>
+				<tr>
+					<th class="h_char h_color_deep">교과목 성격</th>
+					<th class="h_char" colspan="12" style="font-weight:normal;height:60px;text-align:left;padding:5px 5px 5px 5px">1. 본 교과목은 학문적 지식 전달의 성격보다는 신입생들의 원만한 대학생활 적응과 올바른 가치관 형성에 도움을 준다.<br>2. 본 교과목은 학습자 자신에 대한 이해, 우리 대학과 지역에 대한 이해, 타인에 대한 배려와 소통, 자신의 진로에 대하여 진지하게 고민하고 탐색하는 교육내용으로 구성된다.<br>3. 본 교과목은 교수자의 강의식 수업보다 학습주제에 관한 토론식 수업과 협동수업, 체험수업 등 다양한 교수∙학습 방법을 적용한다.<br>4. 교수자의 다매체 활용도가 높은 수업이다. (WAFFLE 교수자용 “대학생활과자기혁신” 자료실에 제공되는 다양한 시청각 자료를 수업에 적용한다.)<br>5. 팀별 프로젝트의 결과물(영상, 각종 포트폴리오)을 제작해 공개 또는 공모에 출품하도록 한다. (학교, 학과, 자신과 일상을 표현하는 동영상 제작)</th>
+				</tr>
+				<tr>
+					<th class="h_char h_color_deep">교과목 목표</th>
+					<th class="h_char" colspan="12" style="font-weight:normal;height:60px;text-align:left;padding:5px 5px 5px 5px">1. 우리 대학을 이해하고 대학 내 정보를 활용함으로써 성공적인 대학생활을 영위한다.<br>2. 분반 담당 교수(class advisor)와 소통, 협동 학습을 통해 자아정체감, 소속감을 형성해 우리 대학에 안정적으로 정착한다.<br>3. 상황에 적합한 의사소통 능력, 대인관계 형성 능력을 길러 공동체 목표를 설계하고 실현한다.<br>4. 자기주도적인 학습 능력을 길러 전공 진로를 탐색하고 능동적으로 미래를 계획한다.5. 교내 다양한 교과·비교과 활동 안내 및 연계로 학습동기와 의욕을 고취한다.</th>
+				</tr>
+
+
+        <tr>
+          <th class="h_char h_color_deep" rowspan="2">수업환경</th>
+          <th class="h_char h_color_light">오프라인 중심</th>
+          <th class="h_char h_color_light">온·오프라인 병행</th>
+          <th class="h_char h_color_light">온라인 중심</th>
+          <th class="h_char"></th>
+          <th class="h_char"></th>
+          <th class="h_char"></th>
+          <th class="h_char"></th>
+          <th class="h_char"></th>
+          <th class="h_char"></th>
+          <th class="h_char"></th>
+          <th class="h_char"></th>
+          <th class="h_char"></th>
+        </tr>
+        <tr>
+          <th class="h_char">
+            
+            <input type="checkbox" id="n_offline" name="n_offline" checked="" value="Y" onclick="return(false);">
+          </th>
+          <th class="h_char">
+            
+            <input type="checkbox" id="n_on_offline" name="n_on_offline" value="Y" onclick="return(false);">
+          </th>
+          <th class="h_char">
+            
+            <input type="checkbox" id="n_online" name="n_online" value="Y" onclick="return(false);">
+          </th>
+          <th class="h_char"></th>
+          <th class="h_char"></th>
+          <th class="h_char"></th>
+          <th class="h_char"></th>
+          <th class="h_char"></th>
+          <th class="h_char"></th>
+          <th class="h_char"></th>
+          <th class="h_char"></th>
+          <th class="h_char"></th>
+        </tr>
+        <tr>
+          <th class="h_char h_color_deep" rowspan="2">수업유형</th>
+          <th class="h_char h_color_light">강의·이론 중심</th>
+          <th class="h_char h_color_light">실험/실습/실기</th>
+          <th class="h_char h_color_light">토론/세미나</th>
+          <th class="h_char h_color_light">캡스톤디자인</th>
+          <th class="h_char h_color_light">산학연계</th>
+          <th class="h_char"></th>
+          <th class="h_char"></th>
+          <th class="h_char"></th>
+          <th class="h_char"></th>
+          <th class="h_char"></th>
+          <th class="h_char"></th>
+          <th class="h_char"></th>
+        </tr>
+        <tr>
+          <th class="h_char">
+            
+            <input type="checkbox" id="n_theory" name="n_theory" checked="" value="Y" onclick="return(false);">
+          </th>
+          <th class="h_char">
+            
+            <input type="checkbox" id="n_lab_practice" name="n_lab_practice" value="Y" onclick="return(false);">
+          </th>
+          <th class="h_char">
+            
+            <input type="checkbox" id="n_discuss_seminar" name="n_discuss_seminar" checked="" value="Y" onclick="return(false);">
+          </th>
+          <th class="h_char">
+            
+            <input type="checkbox" id="n_capstone_design" name="n_capstone_design" value="Y" onclick="return(false);">
+          </th>
+          <th class="h_char">
+            
+            <input type="checkbox" id="n_industry_cnnt" name="n_industry_cnnt" value="Y" onclick="return(false);">
+          </th>
+          <th class="h_char"></th>
+          <th class="h_char"></th>
+          <th class="h_char"></th>
+          <th class="h_char"></th>
+          <th class="h_char"></th>
+          <th class="h_char"></th>
+          <th class="h_char"></th>
+        </tr>
+        <tr>
+          <th class="h_char h_color_deep" rowspan="2">적용교수법</th>
+          <th class="h_char h_color_light">플립러닝</th>
+          <th class="h_char h_color_light">문제해결·현장중심</th>
+          <th class="h_char h_color_light">서비스러닝</th>
+          <th class="h_char h_color_light">에듀테크 활용</th>
+          <th class="h_char h_color_light">강의식</th>
+          <th class="h_char"></th>
+          <th class="h_char"></th>
+          <th class="h_char"></th>
+          <th class="h_char"></th>
+          <th class="h_char"></th>
+          <th class="h_char"></th>
+          <th class="h_char"></th>
+        </tr>
+        <tr>
+          <th class="h_char">
+            
+            <input type="checkbox" id="n_flip_learning" name="n_flip_learning" checked="" value="Y" onclick="return(false);">
+          </th>
+          <th class="h_char">
+            
+            <input type="checkbox" id="n_problem_field" name="n_problem_field" value="Y" onclick="return(false);">
+          </th>
+          <th class="h_char">
+            
+            <input type="checkbox" id="n_service" name="n_service" value="Y" onclick="return(false);">
+          </th>
+          <th class="h_char">
+            
+            <input type="checkbox" id="n_edu_tech" name="n_edu_tech" value="Y" onclick="return(false);">
+          </th>
+          <th class="h_char">
+            
+            <input type="checkbox" id="n_lecture" name="n_lecture" checked="" value="Y" onclick="return(false);">
+          </th>
+          <th class="h_char"></th>
+          <th class="h_char"></th>
+          <th class="h_char"></th>
+          <th class="h_char"></th>
+          <th class="h_char"></th>
+          <th class="h_char"></th>
+          <th class="h_char"></th>
+        </tr>
+
+
+				<tr>
+					<th class="h_char h_color_deep" rowspan="3">성적평가방법(%)</th>
+					<!--th class="h_char h_color_light" colspan="2">중간(수시)/기말고사</th>
+					<th class="h_char h_color_light" colspan="2">출석 및 과제</th>
+					<th class="h_char h_color_light" colspan="6">기타평가도구</th>
+					<th class="h_char"></th>
+					<th class="h_char"></th-->
+				</tr>
+				<tr>
+					<th class="h_char h_color_light">중간</th>
+					<th class="h_char h_color_light">기말</th>
+					<th class="h_char h_color_light">출석</th>
+					<th class="h_char h_color_light">과제</th>
+					<th class="h_char h_color_light">발표</th>
+					<th class="h_char h_color_light">토론</th>
+					<th class="h_char h_color_light">퀴즈</th>
+					<th class="h_char h_color_light">팀활동</th>
+					<th class="h_char h_color_light">태도</th>
+					<th class="h_char h_color_light">기타</th>
+					<th class="h_char"></th>
+					<th class="h_char"></th>
+				</tr>
+				<tr>
+					<th class="h_char">20</th>
+					<th class="h_char">20</th>
+					<th class="h_char">30</th>
+					<th class="h_char">10</th>
+					<th class="h_char">0</th>
+					<th class="h_char">0</th>
+					<th class="h_char">0</th>
+					<th class="h_char">10</th>
+					<th class="h_char">10</th>
+					<th class="h_char">0</th>
+					<th class="h_char"></th>
+					<th class="h_char"></th>
+				</tr>
+				
+				<tr>
+					<th class="h_char h_color_deep">참고도서</th>
+					<th class="h_char" colspan="12" style="font-weight:normal;height:60px;text-align:left;padding:5px 5px 5px 5px">수업 시간 별로 제공</th>
+				</tr>
+
+
+				<tr>
+					<th class="h_char h_color_deep">유의사항</th>
+					<th class="h_char" colspan="12" style="font-weight:normal;height:60px;text-align:left;padding:5px 5px 5px 5px">1. 학교 웹정보서비스, WAFFLE 이용법을 숙지해 수업 활동에 적극 참여한다.2. 학습 과제는 반드시 직접 작성하여 제출하도록 한다.(부실내용으로 구성된 과제물은 과제물 점수를 부여하지 않는다)3. 적극적 참여(질의, 응답, 발표, 과제 제출)를 평가에 반영한다.4. P/F방식으로 학점이 부과되므로 F(FAIL)시 졸업 전 재수강해야 한다.
+					</th>
+				</tr>
+				<tr>
+				  <th class="h_char h_color_deep">장애학생을 위한<br>조정안내</th>
+				  <th class="h_char" colspan="12" style="font-weight:normal;height:60px;text-align:left;padding:5px">
+					장애학생이 본 과목 수강에 도움이 필요한 경우 담당교수 및 장애학생지원센터(☏063-850-5234~6)에 문의요망<br>
+					(대필지원, 수업자료 및 시험지 확대, 좌석조정 등 가능한 범위 내에서 장애유형에 부합하는 지원제공 예정)
+				  </th>
+				</tr>
+				
+
+
+			</thead>
+			</table>
+
+     <!--p>
+        <h4 class="h_title_h3">전년도 개선 요청사항</h4>
+      </p>
+      <p style="margin:0px 0 15px 15px">최근 3년간 CQI및 수업평가 내용을 조회하실 수 있습니다.</p>
+      <table class="tbl_bbs" cellpadding="0" cellspacing="0" border="0" style="table-layout:fixed;width:100%;">
+      <thead>
+        <tr class="first">
+          <th class="h_char h_color_deep" style="width:50px">년도</th>
+          <th class="h_char h_color_deep" style="width:50px">학기</th>
+          <th class="h_char h_color_deep" style="width:100px">학수번호</th>
+          <th class="h_char h_color_deep" >과목명</th>
+          <th class="h_char h_color_deep" style="width:50px">분반</th>
+          <th class="h_char h_color_deep" style="width:90px">CQI</th>
+          <th class="h_char h_color_deep" style="width:90px">수업평가</th>
+        </tr>
+      </thead>
+      <tbody>
+      
+        <tr>
+          <td class="b_char" colspan="7">전년도 과목이 개설되지 않았습니다.</td>
+        </tr>
+        
+      </tbody>
+      </table-->
+
+			<p>
+				</p><h4 class="h_title_h3">교과목 학습성과</h4>
+			<p></p>
+
+			<table class="tbl_bbs" cellpadding="0" cellspacing="0" border="0">
+			<thead>
+				<tr class="first">
+					<!-- th class="h_char h_color_deep" style="width:60px" rowspan="3"></th -->
+					<th class="h_char h_color_deep" rowspan="3" style="width:120px">학습성과(PO)</th>
+					<th class="h_char h_color_deep" rowspan="3" style="width:120px">학습성과<br>중요도</th>
+					<th class="h_char h_color_deep" rowspan="3">교과목 학습성과 내용</th>
+					<!-- th class="h_char h_color_deep" style="width:580px" colspan="10">평가도구</th -->
+				</tr>
+				<!--tr>
+					<th class="h_char h_color_light" colspan="2">중간(수시)/기말</td>
+					<th class="h_char h_color_light" colspan="2">출석 및 과제</td>
+					<th class="h_char h_color_light" colspan="6">기타평가도구</td>
+				</tr>
+				<tr>
+
+					<th class="h_char">중간</th>
+
+					<th class="h_char">기말</th>
+
+					<th class="h_char">출석</th>
+
+					<th class="h_char">과제</th>
+
+					<th class="h_char">발표</th>
+
+					<th class="h_char">토론</th>
+
+					<th class="h_char">퀴즈</th>
+
+					<th class="h_char">태도</th>
+
+					<th class="h_char">팀활동</th>
+
+					<th class="h_char">기타</th>
+
+
+				</tr -->
+			</thead>
+			<tbody>
+				
+				<tr>
+					<!-- td class="b_char" height="38"></td -->
+					<td class="b_char">5.협동능력</td>
+					<td class="b_char">하(○)</td>
+					<td class="b_char_align_left" style="padding:3px 3px 3px 3px">팀활동, 캠퍼스투어, 체험 프로그램을 통해 각자의 역할을 인식하고 협력하여 공동체적 과제를 수행한</td>
+					<!--td class="b_char">40.00</td>
+					<td class="b_char">20.00</td>
+					<td class="b_char">30.00</td>
+					<td class="b_char">20.00</td>
+					<td class="b_char">0</td>
+					<td class="b_char">0</td>
+					<td class="b_char">0</td>
+					<td class="b_char">30.00</td>
+					<td class="b_char">40.00</td>
+					<td class="b_char">0</td -->
+				</tr>
+				
+				<tr>
+					<!-- td class="b_char" height="38"></td -->
+					<td class="b_char">6.의사전달</td>
+					<td class="b_char">중(◐)</td>
+					<td class="b_char_align_left" style="padding:3px 3px 3px 3px">다양한 검사와 상담을 통한 자신의 이해와 구성원과의 소통을 통해 사회적 관계 형성 능력을 함양한다.</td>
+					<!--td class="b_char">30.00</td>
+					<td class="b_char">30.00</td>
+					<td class="b_char">40.00</td>
+					<td class="b_char">30.00</td>
+					<td class="b_char">0</td>
+					<td class="b_char">0</td>
+					<td class="b_char">0</td>
+					<td class="b_char">30.00</td>
+					<td class="b_char">40.00</td>
+					<td class="b_char">0</td -->
+				</tr>
+				
+				<tr>
+					<!-- td class="b_char" height="38"></td -->
+					<td class="b_char">7.영향이해</td>
+					<td class="b_char">상(●)</td>
+					<td class="b_char_align_left" style="padding:3px 3px 3px 3px">자신의 학습 습관, 의사결정 방식을 성찰하고 전공진로를 탐색하는 대학생활 설계의 필요성을 알 수 있다.</td>
+					<!--td class="b_char">30.00</td>
+					<td class="b_char">50.00</td>
+					<td class="b_char">30.00</td>
+					<td class="b_char">50.00</td>
+					<td class="b_char">0</td>
+					<td class="b_char">0</td>
+					<td class="b_char">0</td>
+					<td class="b_char">40.00</td>
+					<td class="b_char">20.00</td>
+					<td class="b_char">0</td -->
+				</tr>
+				
+				<!--tr>
+					<td class="b_char h_color_deep" colspan="4" rowspan="2" height="38"><b>합계</b></td>
+					<td class="b_char h_color_light"><span style="color:red;font-weight:bold">100.0</span></td>
+					<td class="b_char h_color_light"><span style="color:red;font-weight:bold">100.0</span></td>
+					<td class="b_char h_color_light"><span style="color:red;font-weight:bold">100.0</span></td>
+					<td class="b_char h_color_light"><span style="color:red;font-weight:bold">100.0</span></td>
+					<td class="b_char h_color_light"><span style="color:red;font-weight:bold">0.0</span></td>
+					<td class="b_char h_color_light"><span style="color:red;font-weight:bold">0.0</span></td>
+					<td class="b_char h_color_light"><span style="color:red;font-weight:bold">0.0</span></td>
+					<td class="b_char h_color_light"><span style="color:red;font-weight:bold">100.0</span></td>
+					<td class="b_char h_color_light"><span style="color:red;font-weight:bold">100.0</span></td>
+					<td class="b_char h_color_light"><span style="color:red;font-weight:bold">0.0</span></td>
+				</tr -->
+			</tbody>
+			</table>
+
+			<p>
+				</p><h4 class="h_title_h3" style="text-align:left">교과목 역량 정보 </h4>
+			<p></p>
+
+			<table class="tbl_bbs" cellpadding="0" cellspacing="0" style="table-layout:fixed;width:100%;border-bottom:1px solid;">
+				<thead>
+					<tr class="first">
+						<th class="h_char h_color_deep" style="width:10%">역량</th>
+						<th class="h_char h_color_deep" style="width:15%">하위역량</th>
+						<th class="h_char h_color_deep" style="width:30%">구성요인</th>
+						<th class="h_char h_color_deep">역량 진단 문항</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					
+									<tr>
+										<td class="b_char" style="border-top:1px solid #ccc;border-bottom:0px;text-align:center">실천역량</td>
+										<td class="b_char" style="border-top:1px solid #ccc;border-bottom:0px;text-align:center">도전성취역량</td>
+										<td class="b_char" style="border-top:1px solid #ccc;border-bottom:0px;text-align:center">자기주도적 학습능력</td>
+										<td class="b_char" style="border-top:1px solid #ccc;border-bottom:0px;text-align:left;padding-left:10px">나는 과제를 수행할 때 교재 외 다른 자료를 탐색하고 활용한다.</td>
+									</tr>
+								
+									<tr>
+										<td class="b_char" style="border-top:0px solid #ccc;border-bottom:0px;text-align:center"></td>
+										<td class="b_char" style="border-top:0px solid #ccc;border-bottom:0px;text-align:center"></td>
+										<td class="b_char" style="border-top:0px solid #ccc;border-bottom:0px;text-align:center"></td>
+										<td class="b_char" style="border-top:1px solid #ccc;border-bottom:0px;text-align:left;padding-left:10px">나는 학습할 때 생긴 의문점을 해소하기 위해 노력한다.</td>
+									</tr>
+								
+									<tr>
+										<td class="b_char" style="border-top:0px solid #ccc;border-bottom:0px;text-align:center"></td>
+										<td class="b_char" style="border-top:0px solid #ccc;border-bottom:0px;text-align:center"></td>
+										<td class="b_char" style="border-top:0px solid #ccc;border-bottom:0px;text-align:center"></td>
+										<td class="b_char" style="border-top:1px solid #ccc;border-bottom:0px;text-align:left;padding-left:10px">나는 성적과 과제 수행 결과를 스스로 평가하고 문제점을 파악한다.</td>
+									</tr>
+								
+				</tbody>
+			</table>
+
+			<p style="margin:0px 0 35px 15px;line-height:10px">
+				* 학생 역량 개발을 위해 위와 같이 역량을 설정하였으며, 역량 진단 문항을 통하여 학생의 역량 수준을 진단할 예정입니다.
+			</p>
+			<p>
+				</p><h4 class="h_title_h3">주별 세부내용</h4>
+			<p></p>
+			<p style="margin:0px 0 15px 15px">수업계획서의 강의방법은 대면강의를 기준으로 작성되었습니다. 강의방법은 정부의 사회적 거리두기 및 교육부의 방침 및 본교 사정에 따라 변경될 수 있습니다.</p>
+
+			<table class="tbl_bbs" cellpadding="0" cellspacing="0" border="0" style="table-layout:fixed;width:100%;">
+			<thead>
+				<tr class="first">
+					<th class="h_char h_color_deep" style="width:50px">주차</th>
+					<th class="h_char h_color_deep">학습주제</th>
+					<th class="h_char h_color_deep">학습내용</th>
+
+					<th class="h_char h_color_deep" style="width:180px">적용교수법</th>
+
+					<th class="h_char h_color_deep">과제</th>
+					<th class="h_char h_color_deep" style="width:180px">학습자료</th>
+				</tr>
+			</thead>
+
+			<tbody>
+			
+				<input type="hidden" name="week_1" id="week_1" value="1">
+				<tr>
+					<td class="b_char" style="height:90px">1</td>
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px">나의 대학 여정 첫걸음</td>
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px">1. 수업 운영에 대한 오리엔테이션<br>2. 나, 너, 우리 소개하기(자기이해 검사 및 팀활동)</td>
+
+					<td class="b_char_form_left" style="line-height:15px;vertical-align:top">
+						<input type="checkbox" id="n_flip_learning_1" name="n_flip_learning_1" checked="" value="Y" onclick="return(false);"> 플립러닝 <br>
+						<input type="checkbox" id="n_problem_field_1" name="n_problem_field_1" value="Y" onclick="return(false);"> 문제해결·현장중심 <br>
+						<input type="checkbox" id="n_service_1" name="n_service_1" value="Y"> 서비스러닝 <br onclick="return(false);">
+						<input type="checkbox" id="n_edu_tech_1" name="n_edu_tech_1" value="Y" onclick="return(false);"> 에듀테크 활용 <br>
+						<input type="checkbox" id="n_lecture_1" name="n_lecture_1" checked="" value="Y" onclick="return(false);"> 강의식 <br>
+					</td>
+
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px"></td>
+					<td class="b_char_form_left" style="line-height:22px;vertical-align:top;">
+						교재<font color="#FFFFFF">물</font> <input type="text" id="pageunit_1" name="pageunit_1" maxlength="30" value="" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly=""><br>
+						유인물 <input type="text" id="paper_1" name="paper_1" value="" maxlength="30" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly=""><br>
+						기타<font color="#FFFFFF">물</font> <input type="text" id="gitatool_1" name="gitatool_1" value="" maxlength="30" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly="">
+					</td>
+				</tr>
+			
+				<input type="hidden" name="week_2" id="week_2" value="2">
+				<tr>
+					<td class="b_char" style="height:90px">2</td>
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px">생명산업 글로벌거점 원광대학교</td>
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px">1. 대학 소개:역사와 철학, 주요 부서 및 학과<br>2. 신입생이 알아야 할 학사제도</td>
+
+					<td class="b_char_form_left" style="line-height:15px;vertical-align:top">
+						<input type="checkbox" id="n_flip_learning_2" name="n_flip_learning_2" checked="" value="Y" onclick="return(false);"> 플립러닝 <br>
+						<input type="checkbox" id="n_problem_field_2" name="n_problem_field_2" value="Y" onclick="return(false);"> 문제해결·현장중심 <br>
+						<input type="checkbox" id="n_service_2" name="n_service_2" value="Y"> 서비스러닝 <br onclick="return(false);">
+						<input type="checkbox" id="n_edu_tech_2" name="n_edu_tech_2" value="Y" onclick="return(false);"> 에듀테크 활용 <br>
+						<input type="checkbox" id="n_lecture_2" name="n_lecture_2" checked="" value="Y" onclick="return(false);"> 강의식 <br>
+					</td>
+
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px"></td>
+					<td class="b_char_form_left" style="line-height:22px;vertical-align:top;">
+						교재<font color="#FFFFFF">물</font> <input type="text" id="pageunit_2" name="pageunit_2" maxlength="30" value="" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly=""><br>
+						유인물 <input type="text" id="paper_2" name="paper_2" value="" maxlength="30" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly=""><br>
+						기타<font color="#FFFFFF">물</font> <input type="text" id="gitatool_2" name="gitatool_2" value="" maxlength="30" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly="">
+					</td>
+				</tr>
+			
+				<input type="hidden" name="week_3" id="week_3" value="3">
+				<tr>
+					<td class="b_char" style="height:90px">3</td>
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px">안전하고 행복한 대학생활(택 1)</td>
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px">자연식물원, 박물관 투어, WE 소속감 프로그램</td>
+
+					<td class="b_char_form_left" style="line-height:15px;vertical-align:top">
+						<input type="checkbox" id="n_flip_learning_3" name="n_flip_learning_3" checked="" value="Y" onclick="return(false);"> 플립러닝 <br>
+						<input type="checkbox" id="n_problem_field_3" name="n_problem_field_3" value="Y" onclick="return(false);"> 문제해결·현장중심 <br>
+						<input type="checkbox" id="n_service_3" name="n_service_3" value="Y"> 서비스러닝 <br onclick="return(false);">
+						<input type="checkbox" id="n_edu_tech_3" name="n_edu_tech_3" value="Y" onclick="return(false);"> 에듀테크 활용 <br>
+						<input type="checkbox" id="n_lecture_3" name="n_lecture_3" checked="" value="Y" onclick="return(false);"> 강의식 <br>
+					</td>
+
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px"></td>
+					<td class="b_char_form_left" style="line-height:22px;vertical-align:top;">
+						교재<font color="#FFFFFF">물</font> <input type="text" id="pageunit_3" name="pageunit_3" maxlength="30" value="" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly=""><br>
+						유인물 <input type="text" id="paper_3" name="paper_3" value="" maxlength="30" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly=""><br>
+						기타<font color="#FFFFFF">물</font> <input type="text" id="gitatool_3" name="gitatool_3" value="" maxlength="30" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly="">
+					</td>
+				</tr>
+			
+				<input type="hidden" name="week_4" id="week_4" value="4">
+				<tr>
+					<td class="b_char" style="height:90px">4</td>
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px">과제의 시작, 도서관</td>
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px">도서관 투어와 이용법 체험<br>대학에서 첫 보고서 작성법</td>
+
+					<td class="b_char_form_left" style="line-height:15px;vertical-align:top">
+						<input type="checkbox" id="n_flip_learning_4" name="n_flip_learning_4" checked="" value="Y" onclick="return(false);"> 플립러닝 <br>
+						<input type="checkbox" id="n_problem_field_4" name="n_problem_field_4" value="Y" onclick="return(false);"> 문제해결·현장중심 <br>
+						<input type="checkbox" id="n_service_4" name="n_service_4" value="Y"> 서비스러닝 <br onclick="return(false);">
+						<input type="checkbox" id="n_edu_tech_4" name="n_edu_tech_4" value="Y" onclick="return(false);"> 에듀테크 활용 <br>
+						<input type="checkbox" id="n_lecture_4" name="n_lecture_4" checked="" value="Y" onclick="return(false);"> 강의식 <br>
+					</td>
+
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px"></td>
+					<td class="b_char_form_left" style="line-height:22px;vertical-align:top;">
+						교재<font color="#FFFFFF">물</font> <input type="text" id="pageunit_4" name="pageunit_4" maxlength="30" value="" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly=""><br>
+						유인물 <input type="text" id="paper_4" name="paper_4" value="" maxlength="30" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly=""><br>
+						기타<font color="#FFFFFF">물</font> <input type="text" id="gitatool_4" name="gitatool_4" value="" maxlength="30" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly="">
+					</td>
+				</tr>
+			
+				<input type="hidden" name="week_5" id="week_5" value="5">
+				<tr>
+					<td class="b_char" style="height:90px">5</td>
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px">건강한 대학 생활: WON-Healing 레시피 (택 1)</td>
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px">개방형 체육시설 활용 스포츠<br>(배드민턴, 풋살, 야구, 러닝크루, 무도 및 호신술 외)</td>
+
+					<td class="b_char_form_left" style="line-height:15px;vertical-align:top">
+						<input type="checkbox" id="n_flip_learning_5" name="n_flip_learning_5" checked="" value="Y" onclick="return(false);"> 플립러닝 <br>
+						<input type="checkbox" id="n_problem_field_5" name="n_problem_field_5" value="Y" onclick="return(false);"> 문제해결·현장중심 <br>
+						<input type="checkbox" id="n_service_5" name="n_service_5" value="Y"> 서비스러닝 <br onclick="return(false);">
+						<input type="checkbox" id="n_edu_tech_5" name="n_edu_tech_5" value="Y" onclick="return(false);"> 에듀테크 활용 <br>
+						<input type="checkbox" id="n_lecture_5" name="n_lecture_5" checked="" value="Y" onclick="return(false);"> 강의식 <br>
+					</td>
+
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px"></td>
+					<td class="b_char_form_left" style="line-height:22px;vertical-align:top;">
+						교재<font color="#FFFFFF">물</font> <input type="text" id="pageunit_5" name="pageunit_5" maxlength="30" value="" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly=""><br>
+						유인물 <input type="text" id="paper_5" name="paper_5" value="" maxlength="30" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly=""><br>
+						기타<font color="#FFFFFF">물</font> <input type="text" id="gitatool_5" name="gitatool_5" value="" maxlength="30" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly="">
+					</td>
+				</tr>
+			
+				<input type="hidden" name="week_6" id="week_6" value="6">
+				<tr>
+					<td class="b_char" style="height:90px">6</td>
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px">핵심역량 MIND up!</td>
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px">대학의 인재상과 핵심역량, W-point 장학제도의 이해<br>핵심역량 진단 및 비교과프로그램 참여 설계</td>
+
+					<td class="b_char_form_left" style="line-height:15px;vertical-align:top">
+						<input type="checkbox" id="n_flip_learning_6" name="n_flip_learning_6" checked="" value="Y" onclick="return(false);"> 플립러닝 <br>
+						<input type="checkbox" id="n_problem_field_6" name="n_problem_field_6" value="Y" onclick="return(false);"> 문제해결·현장중심 <br>
+						<input type="checkbox" id="n_service_6" name="n_service_6" value="Y"> 서비스러닝 <br onclick="return(false);">
+						<input type="checkbox" id="n_edu_tech_6" name="n_edu_tech_6" value="Y" onclick="return(false);"> 에듀테크 활용 <br>
+						<input type="checkbox" id="n_lecture_6" name="n_lecture_6" checked="" value="Y" onclick="return(false);"> 강의식 <br>
+					</td>
+
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px"></td>
+					<td class="b_char_form_left" style="line-height:22px;vertical-align:top;">
+						교재<font color="#FFFFFF">물</font> <input type="text" id="pageunit_6" name="pageunit_6" maxlength="30" value="" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly=""><br>
+						유인물 <input type="text" id="paper_6" name="paper_6" value="" maxlength="30" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly=""><br>
+						기타<font color="#FFFFFF">물</font> <input type="text" id="gitatool_6" name="gitatool_6" value="" maxlength="30" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly="">
+					</td>
+				</tr>
+			
+				<input type="hidden" name="week_7" id="week_7" value="7">
+				<tr>
+					<td class="b_char" style="height:90px">7</td>
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px">전북 동네 한바퀴 (택 1)</td>
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px">전북학: 지역의 생태, 산업, 문화 이해<br>전북 14개 지자체 중 전공 연계 투어</td>
+
+					<td class="b_char_form_left" style="line-height:15px;vertical-align:top">
+						<input type="checkbox" id="n_flip_learning_7" name="n_flip_learning_7" checked="" value="Y" onclick="return(false);"> 플립러닝 <br>
+						<input type="checkbox" id="n_problem_field_7" name="n_problem_field_7" value="Y" onclick="return(false);"> 문제해결·현장중심 <br>
+						<input type="checkbox" id="n_service_7" name="n_service_7" value="Y"> 서비스러닝 <br onclick="return(false);">
+						<input type="checkbox" id="n_edu_tech_7" name="n_edu_tech_7" value="Y" onclick="return(false);"> 에듀테크 활용 <br>
+						<input type="checkbox" id="n_lecture_7" name="n_lecture_7" checked="" value="Y" onclick="return(false);"> 강의식 <br>
+					</td>
+
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px"></td>
+					<td class="b_char_form_left" style="line-height:22px;vertical-align:top;">
+						교재<font color="#FFFFFF">물</font> <input type="text" id="pageunit_7" name="pageunit_7" maxlength="30" value="" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly=""><br>
+						유인물 <input type="text" id="paper_7" name="paper_7" value="" maxlength="30" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly=""><br>
+						기타<font color="#FFFFFF">물</font> <input type="text" id="gitatool_7" name="gitatool_7" value="" maxlength="30" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly="">
+					</td>
+				</tr>
+			
+				<input type="hidden" name="week_8" id="week_8" value="8">
+				<tr>
+					<td class="b_char" style="height:90px">8</td>
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px">중간평가</td>
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px">폭력예방교육</td>
+
+					<td class="b_char_form_left" style="line-height:15px;vertical-align:top">
+						<input type="checkbox" id="n_flip_learning_8" name="n_flip_learning_8" checked="" value="Y" onclick="return(false);"> 플립러닝 <br>
+						<input type="checkbox" id="n_problem_field_8" name="n_problem_field_8" value="Y" onclick="return(false);"> 문제해결·현장중심 <br>
+						<input type="checkbox" id="n_service_8" name="n_service_8" value="Y"> 서비스러닝 <br onclick="return(false);">
+						<input type="checkbox" id="n_edu_tech_8" name="n_edu_tech_8" value="Y" onclick="return(false);"> 에듀테크 활용 <br>
+						<input type="checkbox" id="n_lecture_8" name="n_lecture_8" checked="" value="Y" onclick="return(false);"> 강의식 <br>
+					</td>
+
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px"></td>
+					<td class="b_char_form_left" style="line-height:22px;vertical-align:top;">
+						교재<font color="#FFFFFF">물</font> <input type="text" id="pageunit_8" name="pageunit_8" maxlength="30" value="" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly=""><br>
+						유인물 <input type="text" id="paper_8" name="paper_8" value="" maxlength="30" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly=""><br>
+						기타<font color="#FFFFFF">물</font> <input type="text" id="gitatool_8" name="gitatool_8" value="" maxlength="30" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly="">
+					</td>
+				</tr>
+			
+				<input type="hidden" name="week_9" id="week_9" value="9">
+				<tr>
+					<td class="b_char" style="height:90px">9</td>
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px">학업능력 UP</td>
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px">기초학업능력 향상과 학습법 프로그램 소개<br>학습유형 (뇌활성도 측정)과 학습전략</td>
+
+					<td class="b_char_form_left" style="line-height:15px;vertical-align:top">
+						<input type="checkbox" id="n_flip_learning_9" name="n_flip_learning_9" checked="" value="Y" onclick="return(false);"> 플립러닝 <br>
+						<input type="checkbox" id="n_problem_field_9" name="n_problem_field_9" value="Y" onclick="return(false);"> 문제해결·현장중심 <br>
+						<input type="checkbox" id="n_service_9" name="n_service_9" value="Y"> 서비스러닝 <br onclick="return(false);">
+						<input type="checkbox" id="n_edu_tech_9" name="n_edu_tech_9" value="Y" onclick="return(false);"> 에듀테크 활용 <br>
+						<input type="checkbox" id="n_lecture_9" name="n_lecture_9" checked="" value="Y" onclick="return(false);"> 강의식 <br>
+					</td>
+
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px"></td>
+					<td class="b_char_form_left" style="line-height:22px;vertical-align:top;">
+						교재<font color="#FFFFFF">물</font> <input type="text" id="pageunit_9" name="pageunit_9" maxlength="30" value="" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly=""><br>
+						유인물 <input type="text" id="paper_9" name="paper_9" value="" maxlength="30" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly=""><br>
+						기타<font color="#FFFFFF">물</font> <input type="text" id="gitatool_9" name="gitatool_9" value="" maxlength="30" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly="">
+					</td>
+				</tr>
+			
+				<input type="hidden" name="week_10" id="week_10" value="10">
+				<tr>
+					<td class="b_char" style="height:90px">10</td>
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px">적성탐색과 진로상담</td>
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px">직업 선호도 검사 및 해설<br>진로설계 상담 제도 소개 및 진로 로드맵 설계</td>
+
+					<td class="b_char_form_left" style="line-height:15px;vertical-align:top">
+						<input type="checkbox" id="n_flip_learning_10" name="n_flip_learning_10" checked="" value="Y" onclick="return(false);"> 플립러닝 <br>
+						<input type="checkbox" id="n_problem_field_10" name="n_problem_field_10" value="Y" onclick="return(false);"> 문제해결·현장중심 <br>
+						<input type="checkbox" id="n_service_10" name="n_service_10" value="Y"> 서비스러닝 <br onclick="return(false);">
+						<input type="checkbox" id="n_edu_tech_10" name="n_edu_tech_10" value="Y" onclick="return(false);"> 에듀테크 활용 <br>
+						<input type="checkbox" id="n_lecture_10" name="n_lecture_10" checked="" value="Y" onclick="return(false);"> 강의식 <br>
+					</td>
+
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px"></td>
+					<td class="b_char_form_left" style="line-height:22px;vertical-align:top;">
+						교재<font color="#FFFFFF">물</font> <input type="text" id="pageunit_10" name="pageunit_10" maxlength="30" value="" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly=""><br>
+						유인물 <input type="text" id="paper_10" name="paper_10" value="" maxlength="30" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly=""><br>
+						기타<font color="#FFFFFF">물</font> <input type="text" id="gitatool_10" name="gitatool_10" value="" maxlength="30" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly="">
+					</td>
+				</tr>
+			
+				<input type="hidden" name="week_11" id="week_11" value="11">
+				<tr>
+					<td class="b_char" style="height:90px">11</td>
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px">진로설계 첫걸음</td>
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px">잡케어를 활용한 희망직업 요구역량 분석<br>잡케어 제공 AI 로드맵 기반의 진로설계 초안 작성</td>
+
+					<td class="b_char_form_left" style="line-height:15px;vertical-align:top">
+						<input type="checkbox" id="n_flip_learning_11" name="n_flip_learning_11" checked="" value="Y" onclick="return(false);"> 플립러닝 <br>
+						<input type="checkbox" id="n_problem_field_11" name="n_problem_field_11" value="Y" onclick="return(false);"> 문제해결·현장중심 <br>
+						<input type="checkbox" id="n_service_11" name="n_service_11" value="Y"> 서비스러닝 <br onclick="return(false);">
+						<input type="checkbox" id="n_edu_tech_11" name="n_edu_tech_11" value="Y" onclick="return(false);"> 에듀테크 활용 <br>
+						<input type="checkbox" id="n_lecture_11" name="n_lecture_11" checked="" value="Y" onclick="return(false);"> 강의식 <br>
+					</td>
+
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px"></td>
+					<td class="b_char_form_left" style="line-height:22px;vertical-align:top;">
+						교재<font color="#FFFFFF">물</font> <input type="text" id="pageunit_11" name="pageunit_11" maxlength="30" value="" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly=""><br>
+						유인물 <input type="text" id="paper_11" name="paper_11" value="" maxlength="30" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly=""><br>
+						기타<font color="#FFFFFF">물</font> <input type="text" id="gitatool_11" name="gitatool_11" value="" maxlength="30" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly="">
+					</td>
+				</tr>
+			
+				<input type="hidden" name="week_12" id="week_12" value="12">
+				<tr>
+					<td class="b_char" style="height:90px">12</td>
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px">미래설계의 시작-셀프리더십 세미나</td>
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px">대학에서 교육과 성장의 의미 탐색과 토론</td>
+
+					<td class="b_char_form_left" style="line-height:15px;vertical-align:top">
+						<input type="checkbox" id="n_flip_learning_12" name="n_flip_learning_12" checked="" value="Y" onclick="return(false);"> 플립러닝 <br>
+						<input type="checkbox" id="n_problem_field_12" name="n_problem_field_12" value="Y" onclick="return(false);"> 문제해결·현장중심 <br>
+						<input type="checkbox" id="n_service_12" name="n_service_12" value="Y"> 서비스러닝 <br onclick="return(false);">
+						<input type="checkbox" id="n_edu_tech_12" name="n_edu_tech_12" value="Y" onclick="return(false);"> 에듀테크 활용 <br>
+						<input type="checkbox" id="n_lecture_12" name="n_lecture_12" checked="" value="Y" onclick="return(false);"> 강의식 <br>
+					</td>
+
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px"></td>
+					<td class="b_char_form_left" style="line-height:22px;vertical-align:top;">
+						교재<font color="#FFFFFF">물</font> <input type="text" id="pageunit_12" name="pageunit_12" maxlength="30" value="" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly=""><br>
+						유인물 <input type="text" id="paper_12" name="paper_12" value="" maxlength="30" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly=""><br>
+						기타<font color="#FFFFFF">물</font> <input type="text" id="gitatool_12" name="gitatool_12" value="" maxlength="30" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly="">
+					</td>
+				</tr>
+			
+				<input type="hidden" name="week_13" id="week_13" value="13">
+				<tr>
+					<td class="b_char" style="height:90px">13</td>
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px">AI 시대 기초학문의 중요성</td>
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px">기초학문의 시작, 교양 교육의 필요성<br>교양교과목 소개 및 수강 계획설계 요령</td>
+
+					<td class="b_char_form_left" style="line-height:15px;vertical-align:top">
+						<input type="checkbox" id="n_flip_learning_13" name="n_flip_learning_13" checked="" value="Y" onclick="return(false);"> 플립러닝 <br>
+						<input type="checkbox" id="n_problem_field_13" name="n_problem_field_13" value="Y" onclick="return(false);"> 문제해결·현장중심 <br>
+						<input type="checkbox" id="n_service_13" name="n_service_13" value="Y"> 서비스러닝 <br onclick="return(false);">
+						<input type="checkbox" id="n_edu_tech_13" name="n_edu_tech_13" value="Y" onclick="return(false);"> 에듀테크 활용 <br>
+						<input type="checkbox" id="n_lecture_13" name="n_lecture_13" checked="" value="Y" onclick="return(false);"> 강의식 <br>
+					</td>
+
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px"></td>
+					<td class="b_char_form_left" style="line-height:22px;vertical-align:top;">
+						교재<font color="#FFFFFF">물</font> <input type="text" id="pageunit_13" name="pageunit_13" maxlength="30" value="" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly=""><br>
+						유인물 <input type="text" id="paper_13" name="paper_13" value="" maxlength="30" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly=""><br>
+						기타<font color="#FFFFFF">물</font> <input type="text" id="gitatool_13" name="gitatool_13" value="" maxlength="30" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly="">
+					</td>
+				</tr>
+			
+				<input type="hidden" name="week_14" id="week_14" value="14">
+				<tr>
+					<td class="b_char" style="height:90px">14</td>
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px">전공선택을 위한 나만의 학문적 길 찾기</td>
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px">(전공탐색101, 전공기초세미나연계) 전공선택을 위한 합리적인 의사결정 방법</td>
+
+					<td class="b_char_form_left" style="line-height:15px;vertical-align:top">
+						<input type="checkbox" id="n_flip_learning_14" name="n_flip_learning_14" checked="" value="Y" onclick="return(false);"> 플립러닝 <br>
+						<input type="checkbox" id="n_problem_field_14" name="n_problem_field_14" value="Y" onclick="return(false);"> 문제해결·현장중심 <br>
+						<input type="checkbox" id="n_service_14" name="n_service_14" value="Y"> 서비스러닝 <br onclick="return(false);">
+						<input type="checkbox" id="n_edu_tech_14" name="n_edu_tech_14" value="Y" onclick="return(false);"> 에듀테크 활용 <br>
+						<input type="checkbox" id="n_lecture_14" name="n_lecture_14" checked="" value="Y" onclick="return(false);"> 강의식 <br>
+					</td>
+
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px"></td>
+					<td class="b_char_form_left" style="line-height:22px;vertical-align:top;">
+						교재<font color="#FFFFFF">물</font> <input type="text" id="pageunit_14" name="pageunit_14" maxlength="30" value="" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly=""><br>
+						유인물 <input type="text" id="paper_14" name="paper_14" value="" maxlength="30" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly=""><br>
+						기타<font color="#FFFFFF">물</font> <input type="text" id="gitatool_14" name="gitatool_14" value="" maxlength="30" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly="">
+					</td>
+				</tr>
+			
+				<input type="hidden" name="week_15" id="week_15" value="15">
+				<tr>
+					<td class="b_char" style="height:90px">15</td>
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px">기말평가</td>
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px">대학생활 설계 포트폴리오 제출</td>
+
+					<td class="b_char_form_left" style="line-height:15px;vertical-align:top">
+						<input type="checkbox" id="n_flip_learning_15" name="n_flip_learning_15" checked="" value="Y" onclick="return(false);"> 플립러닝 <br>
+						<input type="checkbox" id="n_problem_field_15" name="n_problem_field_15" value="Y" onclick="return(false);"> 문제해결·현장중심 <br>
+						<input type="checkbox" id="n_service_15" name="n_service_15" value="Y"> 서비스러닝 <br onclick="return(false);">
+						<input type="checkbox" id="n_edu_tech_15" name="n_edu_tech_15" value="Y" onclick="return(false);"> 에듀테크 활용 <br>
+						<input type="checkbox" id="n_lecture_15" name="n_lecture_15" checked="" value="Y" onclick="return(false);"> 강의식 <br>
+					</td>
+
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px"></td>
+					<td class="b_char_form_left" style="line-height:22px;vertical-align:top;">
+						교재<font color="#FFFFFF">물</font> <input type="text" id="pageunit_15" name="pageunit_15" maxlength="30" value="" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly=""><br>
+						유인물 <input type="text" id="paper_15" name="paper_15" value="" maxlength="30" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly=""><br>
+						기타<font color="#FFFFFF">물</font> <input type="text" id="gitatool_15" name="gitatool_15" value="" maxlength="30" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly="">
+					</td>
+				</tr>
+			
+				<input type="hidden" name="week_16" id="week_16" value="16">
+				<tr>
+					<td class="b_char" style="height:90px">16</td>
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px">공휴일 등으로 인한 수업 결손 시 보강</td>
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px"></td>
+
+					<td class="b_char_form_left" style="line-height:15px;vertical-align:top">
+						<input type="checkbox" id="n_flip_learning_16" name="n_flip_learning_16" checked="" value="Y" onclick="return(false);"> 플립러닝 <br>
+						<input type="checkbox" id="n_problem_field_16" name="n_problem_field_16" value="Y" onclick="return(false);"> 문제해결·현장중심 <br>
+						<input type="checkbox" id="n_service_16" name="n_service_16" value="Y"> 서비스러닝 <br onclick="return(false);">
+						<input type="checkbox" id="n_edu_tech_16" name="n_edu_tech_16" value="Y" onclick="return(false);"> 에듀테크 활용 <br>
+						<input type="checkbox" id="n_lecture_16" name="n_lecture_16" checked="" value="Y" onclick="return(false);"> 강의식 <br>
+					</td>
+
+					<td class="b_char_form_left" style="font-weight:normal;text-align:left;padding:5px 5px 5px 5px"></td>
+					<td class="b_char_form_left" style="line-height:22px;vertical-align:top;">
+						교재<font color="#FFFFFF">물</font> <input type="text" id="pageunit_16" name="pageunit_16" maxlength="30" value="" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly=""><br>
+						유인물 <input type="text" id="paper_16" name="paper_16" value="" maxlength="30" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly=""><br>
+						기타<font color="#FFFFFF">물</font> <input type="text" id="gitatool_16" name="gitatool_16" value="" maxlength="30" style="width:100px;border-top:0px; border-left:0px; border-right:0px;height:10px;font-size:12px" readonly="">
+					</td>
+				</tr>
+			
+			</tbody>
+			</table>
+			</form>
+
+		
+		</div>
+	</div>
+</div>
+
+<div class="md-modal md-effect-8" id="modal-8" style="max-width:800px">
+	<div class="md-content">
+		<h3>평가방법</h3>
+		<div>
+
+			<div class="layer " id="plan_a">
+				<p><b>평가방법A : 학업능력 반복 평가</b></p>
+				<table>
+					<thead>
+						<tr>
+							<th colspan="2">평가항목</th>
+							<th>비율(%)</th>
+							<th>채점기준</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="half">시험</td>
+							<td class="half">기말고사</td>
+							<td>30</td>
+							<td>지필고사</td>
+						</tr>
+						<tr>
+							<td colspan="2">팀활동</td>
+							<td>10</td>
+							<td>팀활동 기여도(학생 동료 평가)</td>
+						</tr>
+						<tr>
+							<td colspan="2">출석</td>
+							<td>10</td>
+							<td>무단결석, 지각의 경우 감점</td>
+						</tr>
+						<tr>
+							<td colspan="2">과제</td>
+							<td>50</td>
+							<td>
+								반복 평가 실시로 감점<br>
+								예) 1차 통과:100점; 2차 통과:80점<br>
+								3차 통과:60점; 4차 이후 통과:50점
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">합계</td>
+							<td>100</td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="layer layer-close" id="plan_b">
+				<p><b>평가방법B : 프로젝트 결과물 평가 + 산업체 전문가 평가</b></p>
+				<table>
+					<thead>
+						<tr>
+							<th colspan="2">평가항목</th>
+							<th>비율(%)</th>
+							<th>채점기준</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="half" rowspan="3">프로젝트<br>평가</td>
+							<td class="half">교수</td>
+							<td>30</td>
+							<td rowspan="3">
+								팀 평가 및 학생 동료 평가 결과 반영<br>
+								(발표 태도의 적절성, 발표 내용의 충실성, 팀 기여도 등)<br>
+								LINC+ 산업현장 교수의 적극적인 참여 유도
+							</td>
+						</tr>
+						<tr>
+							<td>학생동료평가</td>
+							<td>20</td>
+						</tr>
+						<tr>
+							<td>산업체 전문가</td>
+							<td>40</td>
+						</tr>
+						<tr>
+							<td colspan="2">출석</td>
+							<td>10</td>
+							<td>무단결석, 지각의 경우 감점</td>
+						</tr>
+						<tr>
+							<td colspan="2">합계</td>
+							<td>100</td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="layer layer-close" id="plan_c">
+				<p><b>평가방법 C : 프로젝트 결과물 평가</b></p>
+				<table>
+					<thead>
+						<tr>
+							<th colspan="2">평가항목</th>
+							<th>비율(%)</th>
+							<th>채점기준</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="half" rowspan="2">프로젝트<br>평가</td>
+							<td class="half">교수</td>
+							<td>60</td>
+							<td rowspan="2">
+								팀 평가 및 학생 동료 평가 결과 반영<br>
+								(발표 내용의 창의성 및 적절성, 발표 태도, 팀 기여도 등)<br>
+							</td>
+						</tr>
+						<tr>
+							<td>학생동료평가</td>
+							<td>30</td>
+						</tr>
+						<tr>
+							<td colspan="2">출석</td>
+							<td>10</td>
+							<td>무단결석, 지각의 경우 감점</td>
+						</tr>
+						<tr>
+							<td colspan="2">합계</td>
+							<td>100</td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="layer layer-close" id="plan_d">
+				<p><b>평가방법 D : MOOC 교수방법을 이용한 교과목 평가</b></p>
+				<table>
+					<thead>
+						<tr>
+							<th colspan="2">평가항목</th>
+							<th>비율(%)</th>
+							<th>채점기준</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="half">시험</td>
+							<td class="half">기말고사</td>
+							<td>30</td>
+							<td>지필고사 점수</td>
+						</tr>
+						<tr>
+							<td>퀴즈</td>
+							<td>퀴즈</td>
+							<td>50</td>
+							<td>수업 시간 전 퀴즈 풀이 점수 반영</td>
+						</tr>
+						<tr>
+							<td>과제</td>
+							<td>보고서제출</td>
+							<td>20</td>
+							<td>보고서의 적정성</td>
+						</tr>
+						<tr>
+							<td colspan="2">합계</td>
+							<td>100</td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="layer layer-close" id="plan_e">
+				<p><b>평가방법 E : 대학 내 기본 평가 + 선수학습 평가</b></p>
+				<table>
+					<thead>
+						<tr>
+							<th colspan="2">평가항목</th>
+							<th>비율(%)</th>
+							<th>채점기준</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="half" rowspan="2">시험</td>
+							<td class="half">중간고사</td>
+							<td>30</td>
+							<td>지필고사</td>
+						</tr>
+						<tr>
+							<td>기말고사</td>
+							<td>30</td>
+							<td>지필고사</td>
+						</tr>
+						<tr>
+							<td colspan="2">퀴즈</td>
+							<td>20</td>
+							<td>매주 선수학습 내용을 퀴즈로 검증</td>
+						</tr>
+						<tr>
+							<td colspan="2">출석</td>
+							<td>10</td>
+							<td>무단결석, 지각의 경우 감점</td>
+						</tr>
+						<tr>
+							<td colspan="2">과제</td>
+							<td>10</td>
+							<td>과제 취득 점수</td>
+						</tr>
+						<tr>
+							<td colspan="2">합계</td>
+							<td>100</td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="layer layer-close" id="plan_f">
+				<p><b>평가방법 F : 대학 내 기본 학업능력 평가(현재 대학 내 평가방법)</b></p>
+				<table>
+					<thead>
+						<tr>
+							<th>평가항목(대분류)</th>
+							<th>평가항목(소분류)</th>
+							<th>비율(%)</th>
+							<th>채점기준</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td rowspan="2">중간(수시) 고사<br>기말고사</td>
+							<td>중간고사</td>
+							<td>30</td>
+							<td>지필고사</td>
+						</tr>
+						<tr>
+							<td>기말고사</td>
+							<td>30</td>
+							<td>지필고사</td>
+						</tr>
+						<tr>
+							<td rowspan="2">출석 과제</td>
+							<td>출석</td>
+							<td>10</td>
+							<td>출석률</td>
+						</tr>
+						<tr>
+							<td>과제</td>
+							<td>10</td>
+							<td>과제 취득 점수</td>
+						</tr>
+						<tr>
+							<td rowspan="6">기타 평가도구</td>
+							<td>발표</td>
+							<td>10</td>
+							<td>발표 평가 점수</td>
+						</tr>
+						<tr>
+							<td>토론</td>
+							<td>0</td>
+							<td>토론 참여 비율</td>
+						</tr>
+						<tr>
+							<td>퀴즈</td>
+							<td>10</td>
+							<td>퀴즈 취득 점수</td>
+						</tr>
+						<tr>
+							<td>팀활동</td>
+							<td>0</td>
+							<td>팀활동 취득 점수</td>
+						</tr>
+						<tr>
+							<td>태도</td>
+							<td>0</td>
+							<td>수업 태도 점수</td>
+						</tr>
+						<tr>
+							<td>기타</td>
+							<td>0</td>
+							<td>교수자 재량</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<p style="text-align:center"><img src="/WEB/SWupis/V005/static/img/btn_close.gif" class="md-close"></p>
+		</div>
+	</div>
+</div>
+
+<script src="/WEB/SWupis/V005/static/js/classie.js"></script>
+<script src="/WEB/SWupis/V005/static/js/modalEffects.js"></script>
+
+<script type="text/javascript">
+
+	$('.md-trigger').click(function() {
+		$('.layer').addClass('layer-close');
+		var target = $(this).data('target');
+		$(target).removeClass('layer-close');
+	});
+
+	function lessonCqiExam(p_year, p_term, p_codelesson, p_class, p_employeeno) {
+		window.open('/SWupis/V005/Service/Teach/HEstimate/cqiView.jsp?year='+p_year+'&term='+p_term+'&codeLesson='+p_codelesson+'&classNo='+p_class+'&eNo='+p_employeeno, "lessonCqiExam", "width=800, height=900, left=0, top=0, scrollbars=yes");
+	}
+
+
+	function fnNCS(p_codecollege, p_year, p_term, p_codelesson, p_class, p_employeeno) {
+		window.open('lectRPlanNCS.jsp?year='+p_year+'&term='+p_term+'&codeLesson='+p_codelesson+'&classNo='+p_class+'&eNo='+p_employeeno, "ncs_add", "width=820, height=600, left=0, top=0, scrollbars=yes");
+	}
+
+  function lessonExam(p_year, p_term, p_codelesson, p_class, p_employeeno) {
+    window.open('/SWupis/V005/Service/Teach/HEstimate/e072/result.jsp?year='+p_year+'&term='+p_term+'&codeLesson='+p_codelesson+'&classNo='+p_class+'&eNo='+p_employeeno, "lessonExam", "width=800, height=900, left=0, top=0, scrollbars=yes");
+  }
+
+
+</script>
+
+</body></html>
