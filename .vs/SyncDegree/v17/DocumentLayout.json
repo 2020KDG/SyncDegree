@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\SyncDegree\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\Desktop\\SyncDegree\\MEMORY.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MEMORY.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\Desktop\\SyncDegree\\analyze_wonkwang.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:analyze_wonkwang.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\Desktop\\SyncDegree\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\Desktop\\SyncDegree\\.env.example||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.env.example||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\Desktop\\SyncDegree\\requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\Desktop\\SyncDegree\\GEMINI.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GEMINI.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\Desktop\\SyncDegree\\reproduce_bugs.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:reproduce_bugs.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\Desktop\\SyncDegree\\verify_wonkwang.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:verify_wonkwang.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MEMORY.md",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\SyncDegree\\MEMORY.md",
+              "RelativeDocumentMoniker": "MEMORY.md",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\SyncDegree\\MEMORY.md",
+              "RelativeToolTip": "MEMORY.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-11T16:06:06.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": ".env",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\SyncDegree\\.env",
+              "RelativeDocumentMoniker": ".env",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\SyncDegree\\.env",
+              "RelativeToolTip": ".env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIISURBVEhLtZWxb9pAGMV/VCwd2rmq2aLu\u002BQM8I4uZ7C5bVMTSyfkDjhnJbacipgoFpG7oxNAFpC4gVR0qKzhbBtbUJ3WJ6g72XcxhKA3Nkyx/fnf3vnv33Z3hMZGmqU0BIIRIjwWQAjyxxf839iaoVB7\u002BGI2ioIYQIg2CgNlsZjcdhPl8zsXFBbv0j66BEOKAGtzd2syDUNVBv99PXddlvV4DMPv6HQApJVJKlsvl/agi7m5Jfu2eZxWg0\u002BmknucxnX7h8vKTaWw2m3ieh1KKbrdbHFeKdruNUmqDMw4Arq5\u002BMJlMKrrIjuMwHA4BCIKg2NUgSRIT2\u002BLYCfbhEAe\u002B728lqQLEcYyUkjiONxqVUoRhiFKKXq\u002B30aaRJIkRtcXR\u002B/RtI9tSNq6zeht8Xlrd8gLbCcbjsTkH1fct0nMPqL2Bm2k2sFaHm3cmwQcJ9VNwHIcoinj29DdAqbjtorJr9jbqp/B68JIoijZ4pdSWuJTy3sHJCzj3XmW9n59k75/XcLaCUc6zYvoti8IwzLlt6C1dxD87WCwWhivOXn9j3UWZg49ksz1bZT11XOJgMBjk3DZc191ykJ2DUV7YUc7W6jBaAVlCLU5\u002BujXstbfFKVynG8skhMD3/SJVKmJz\u002Bh3HsVmi0vtaCJH6vr93Of6GgxJQYnvfdzFuNBrs/OG0Wi39wzj2eXz8AWtgpCA289O2AAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-05-11T15:48:37.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": ".env.example",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\SyncDegree\\.env.example",
+              "RelativeDocumentMoniker": ".env.example",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\SyncDegree\\.env.example",
+              "RelativeToolTip": ".env.example",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-05-11T15:48:36.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "requirements.txt",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\SyncDegree\\requirements.txt",
+              "RelativeDocumentMoniker": "requirements.txt",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\SyncDegree\\requirements.txt",
+              "RelativeToolTip": "requirements.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-05-11T14:43:37.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GEMINI.md",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\SyncDegree\\GEMINI.md",
+              "RelativeDocumentMoniker": "GEMINI.md",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\SyncDegree\\GEMINI.md",
+              "RelativeToolTip": "GEMINI.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-11T14:41:18.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "reproduce_bugs.py",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\SyncDegree\\reproduce_bugs.py",
+              "RelativeDocumentMoniker": "reproduce_bugs.py",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\SyncDegree\\reproduce_bugs.py",
+              "RelativeToolTip": "reproduce_bugs.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALlSURBVEhLrZQ/TBtXHMc/753t2PHzJRJupEpBYoDJDB4ZWNhAGUCiEh4zMLBUsFQMTDd3ccVYZfCWxWIkDAgkPDBFHiBkwyqoVSmq6N0BrX33Xoe7c3wEkoD4SE/v3\u002B/3/b5/d4IvUDncUUO94GdbeK9t6edt6WFbHrb0sKUf1ZZHKWlLD9vyKYpLgNPn5T9eypuiCZXDQ5W9LmxixBKI/KcZgUFgIKpN0hcYJNqIJPDlxfn3H281\u002BG7nTF35YtMgJhMBjYyKEWgTt5GESEIjCY1FYCx6ZOmRjYQE\u002Bc8Nds5UmO9uaiEn\u002ByJGok0shhWVWDAwGQKTpUuWrsnxn85xrQt9k/5\u002BEnGmXnipsXvy/vcJCuKaJ7JLjm7n0w52zhTZ4mYq\u002BgFc6QKXuogfFnG1He\u002BgL24mmVQAzM7OUq1WATg9PaXRaBAEAePj48zPz6OUotlssr\u002B/nzJ499urePU9LBF2ZEp8gLm5OarVKp1Oh1qtxvr6OhMTE\u002Bzt7aGU4vz8nI2NDRYWFgbT4tUrXK1wTYkMmae/3hRPaLfbNBoNyuUy09PTLC8vU6/XcRwHgK2tLYaGhlI5ni6SEz0yIsDSGongh1TEACsrK5ycnLC0tITjOIyOjnJwcNCfb7fbbG9vp3J8rfC0wtMlXF1CAplUxAD1ep3h4WHGxsZotVrs7u6yuLhIJhOlrK2tsbq6msqJxOMjig2\u002BGcdxyOfzHB8fc3R0RK1Wo9lspmIi8RJuWMLTRQQt36Qi4ldULpcJgoCLi4vUNMDIyAhKqdRxJfz44Zfo/AmRwnTuNHgorw/eYIkAK/qZDHxoj4SrFV4YXbBr7nkH30JywZ5WuKH97vENwuSJ2i0/8\u002BynOw2MMbeWr\u002BHqEv9o1fo7J2Z2K1P\u002BnQZCiFvL1/C0av1ZeDpzWJnygce/g3\u002Bvns/8Van4Sf/zZ/pgRIve5QxTL/riPN4ObhcnNghuDt6Pu8WJDeoPNAkwvP2SOMD/Goplv5eeFZIAAAAASUVORK5CYII=",
+              "WhenOpened": "2026-05-11T14:41:12.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "verify_wonkwang.py",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\SyncDegree\\verify_wonkwang.py",
+              "RelativeDocumentMoniker": "verify_wonkwang.py",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\SyncDegree\\verify_wonkwang.py",
+              "RelativeToolTip": "verify_wonkwang.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALlSURBVEhLrZQ/TBtXHMc/753t2PHzJRJupEpBYoDJDB4ZWNhAGUCiEh4zMLBUsFQMTDd3ccVYZfCWxWIkDAgkPDBFHiBkwyqoVSmq6N0BrX33Xoe7c3wEkoD4SE/v3\u002B/3/b5/d4IvUDncUUO94GdbeK9t6edt6WFbHrb0sKUf1ZZHKWlLD9vyKYpLgNPn5T9eypuiCZXDQ5W9LmxixBKI/KcZgUFgIKpN0hcYJNqIJPDlxfn3H281\u002BG7nTF35YtMgJhMBjYyKEWgTt5GESEIjCY1FYCx6ZOmRjYQE\u002Bc8Nds5UmO9uaiEn\u002ByJGok0shhWVWDAwGQKTpUuWrsnxn85xrQt9k/5\u002BEnGmXnipsXvy/vcJCuKaJ7JLjm7n0w52zhTZ4mYq\u002BgFc6QKXuogfFnG1He\u002BgL24mmVQAzM7OUq1WATg9PaXRaBAEAePj48zPz6OUotlssr\u002B/nzJ499urePU9LBF2ZEp8gLm5OarVKp1Oh1qtxvr6OhMTE\u002Bzt7aGU4vz8nI2NDRYWFgbT4tUrXK1wTYkMmae/3hRPaLfbNBoNyuUy09PTLC8vU6/XcRwHgK2tLYaGhlI5ni6SEz0yIsDSGongh1TEACsrK5ycnLC0tITjOIyOjnJwcNCfb7fbbG9vp3J8rfC0wtMlXF1CAplUxAD1ep3h4WHGxsZotVrs7u6yuLhIJhOlrK2tsbq6msqJxOMjig2\u002BGcdxyOfzHB8fc3R0RK1Wo9lspmIi8RJuWMLTRQQt36Qi4ldULpcJgoCLi4vUNMDIyAhKqdRxJfz44Zfo/AmRwnTuNHgorw/eYIkAK/qZDHxoj4SrFV4YXbBr7nkH30JywZ5WuKH97vENwuSJ2i0/8\u002BynOw2MMbeWr\u002BHqEv9o1fo7J2Z2K1P\u002BnQZCiFvL1/C0av1ZeDpzWJnygce/g3\u002Bvns/8Van4Sf/zZ/pgRIve5QxTL/riPN4ObhcnNghuDt6Pu8WJDeoPNAkwvP2SOMD/Goplv5eeFZIAAAAASUVORK5CYII=",
+              "WhenOpened": "2026-05-11T14:41:10.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "analyze_wonkwang.py",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\SyncDegree\\analyze_wonkwang.py",
+              "RelativeDocumentMoniker": "analyze_wonkwang.py",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\SyncDegree\\analyze_wonkwang.py",
+              "RelativeToolTip": "analyze_wonkwang.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALlSURBVEhLrZQ/TBtXHMc/753t2PHzJRJupEpBYoDJDB4ZWNhAGUCiEh4zMLBUsFQMTDd3ccVYZfCWxWIkDAgkPDBFHiBkwyqoVSmq6N0BrX33Xoe7c3wEkoD4SE/v3\u002B/3/b5/d4IvUDncUUO94GdbeK9t6edt6WFbHrb0sKUf1ZZHKWlLD9vyKYpLgNPn5T9eypuiCZXDQ5W9LmxixBKI/KcZgUFgIKpN0hcYJNqIJPDlxfn3H281\u002BG7nTF35YtMgJhMBjYyKEWgTt5GESEIjCY1FYCx6ZOmRjYQE\u002Bc8Nds5UmO9uaiEn\u002ByJGok0shhWVWDAwGQKTpUuWrsnxn85xrQt9k/5\u002BEnGmXnipsXvy/vcJCuKaJ7JLjm7n0w52zhTZ4mYq\u002BgFc6QKXuogfFnG1He\u002BgL24mmVQAzM7OUq1WATg9PaXRaBAEAePj48zPz6OUotlssr\u002B/nzJ499urePU9LBF2ZEp8gLm5OarVKp1Oh1qtxvr6OhMTE\u002Bzt7aGU4vz8nI2NDRYWFgbT4tUrXK1wTYkMmae/3hRPaLfbNBoNyuUy09PTLC8vU6/XcRwHgK2tLYaGhlI5ni6SEz0yIsDSGongh1TEACsrK5ycnLC0tITjOIyOjnJwcNCfb7fbbG9vp3J8rfC0wtMlXF1CAplUxAD1ep3h4WHGxsZotVrs7u6yuLhIJhOlrK2tsbq6msqJxOMjig2\u002BGcdxyOfzHB8fc3R0RK1Wo9lspmIi8RJuWMLTRQQt36Qi4ldULpcJgoCLi4vUNMDIyAhKqdRxJfz44Zfo/AmRwnTuNHgorw/eYIkAK/qZDHxoj4SrFV4YXbBr7nkH30JywZ5WuKH97vENwuSJ2i0/8\u002BynOw2MMbeWr\u002BHqEv9o1fo7J2Z2K1P\u002BnQZCiFvL1/C0av1ZeDpzWJnygce/g3\u002Bvns/8Van4Sf/zZ/pgRIve5QxTL/riPN4ObhcnNghuDt6Pu8WJDeoPNAkwvP2SOMD/Goplv5eeFZIAAAAASUVORK5CYII=",
+              "WhenOpened": "2026-05-11T14:38:38.756Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
